@@ -6,7 +6,7 @@
 /*   By: amorion- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 09:19:13 by amorion-          #+#    #+#             */
-/*   Updated: 2021/07/01 13:39:11 by amorion-         ###   ########.fr       */
+/*   Updated: 2021/07/01 16:51:54 by amorion-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strcpy(char *dest, char *src)
 	i = 0 ;
 	while (src[i] != '\0')
 	{
-		dest[i] = srcc[i];
+		dest[i] = src[i];
 		i++;
 	}
 	dest[i] = '\0';

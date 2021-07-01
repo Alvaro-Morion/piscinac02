@@ -6,11 +6,11 @@
 /*   By: amorion- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/29 15:07:16 by amorion-          #+#    #+#             */
-/*   Updated: 2021/07/01 13:38:21 by amorion-         ###   ########.fr       */
+/*   Updated: 2021/07/01 17:54:09 by amorion-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strncpy(char *dest, char *srr, unsigned int n)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int	i;
 
